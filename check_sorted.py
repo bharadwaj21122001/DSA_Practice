@@ -14,4 +14,4 @@ def check(nums):
     return True
 print(check([3,4,5,1,2]))
 print(check([2,1,3,4]))
-print(check([1,2,3]))
+print(check([1,1,1]))   
