@@ -8,12 +8,9 @@ def reverseWords(s):
         res = ""
         
         for i in range(len(new)):
-            if new[i] == new[-1]:
-                res += new[i]
-            else:
-                res += new[i]
-                res += ' '
-        return res
+            res += new[i] + ' '
+
+        return res.strip()
 
 print(reverseWords("the sky is blue"))
 print(reverseWords("  hello world  "))
