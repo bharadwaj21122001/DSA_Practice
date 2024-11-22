@@ -5,7 +5,9 @@
 def rotateString(s, goal):
     if len(s) != len(goal):
             return False
+    
     # return goal in (s+s)
+    
     for i in range(len(s)):
         s = s[1:] + s[0]
         if goal == s:
